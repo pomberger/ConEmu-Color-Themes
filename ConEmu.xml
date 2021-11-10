@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2021-10-28 13:01:16" build="210912">
+		<key name=".Vanilla" modified="2021-11-10 13:48:50" build="210912">
 			<value name="Language" type="string" data="de"/>
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
@@ -19,7 +19,7 @@
 			<value name="ColorTable06" type="dword" data="000ae5ff"/>
 			<value name="ColorTable07" type="dword" data="00c6c8c5"/>
 			<value name="ColorTable08" type="dword" data="00808080"/>
-			<value name="ColorTable09" type="dword" data="005f5505"/>
+			<value name="ColorTable09" type="dword" data="00afaa82"/>
 			<value name="ColorTable10" type="dword" data="001dd03b"/>
 			<value name="ColorTable11" type="dword" data="00fae36a"/>
 			<value name="ColorTable12" type="dword" data="00170ef4"/>
@@ -83,8 +83,8 @@
 			<value name="JumpListAutoUpdate" type="hex" data="01"/>
 			<value name="SaveCmdHistory" type="hex" data="01"/>
 			<value name="CmdLineHistory" type="multi">
-				<line data="{WSL::WSL}"/>
 				<line data="{Shells::PowerShell Core}"/>
+				<line data="{WSL::WSL}"/>
 			</value>
 			<value name="SingleInstance" type="hex" data="00"/>
 			<value name="ShowHelpTooltips" type="hex" data="01"/>
@@ -109,7 +109,7 @@
 			<value name="Multi.SplitHeight" type="hex" data="04"/>
 			<value name="ResetTerminalConfirm" type="hex" data="01"/>
 			<value name="KeyboardHooks" type="hex" data="01"/>
-			<value name="FontName" type="string" data="Lucida Console"/>
+			<value name="FontName" type="string" data="Hack NF"/>
 			<value name="FontName2" type="string" data="Cascadia Code PL"/>
 			<value name="FontAutoSize" type="hex" data="00"/>
 			<value name="FontSize" type="ulong" data="14"/>
@@ -141,11 +141,11 @@
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="791"/>
-			<value name="ConWnd Y" type="long" data="179"/>
+			<value name="ConWnd X" type="long" data="527"/>
+			<value name="ConWnd Y" type="long" data="96"/>
 			<value name="LastMonitor" type="string" data="0,0,1920,1160"/>
-			<value name="ConWnd Width" type="dword" data="0000007e"/>
-			<value name="ConWnd Height" type="dword" data="0000001c"/>
+			<value name="ConWnd Width" type="dword" data="00000092"/>
+			<value name="ConWnd Height" type="dword" data="00000023"/>
 			<value name="16bit Height" type="ulong" data="0"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
 			<value name="Restore2ActiveMon" type="hex" data="00"/>
@@ -200,7 +200,7 @@
 			<value name="HighlightMouseCol" type="hex" data="00"/>
 			<value name="FixFarBorders" type="hex" data="01"/>
 			<value name="Anti-aliasing2" type="hex" data="00"/>
-			<value name="FixFarBordersRanges" type="string" data="2013-25C4;"/>
+			<value name="FixFarBordersRanges" type="string" data="2E80-9FC3;AC00-D7A3;F900-FAFF;FE30-FE4F;FF01-FF60;FFE0-FFE6;"/>
 			<value name="ExtendUCharMap" type="hex" data="01"/>
 			<value name="EnhanceGraphics" type="hex" data="01"/>
 			<value name="EnhanceButtons" type="hex" data="00"/>
@@ -215,7 +215,7 @@
 			<value name="SendAltPrintScrn" type="hex" data="00"/>
 			<value name="SendPrintScrn" type="hex" data="00"/>
 			<value name="SendCtrlEsc" type="hex" data="00"/>
-			<value name="Min2Tray" type="hex" data="01"/>
+			<value name="Min2Tray" type="hex" data="00"/>
 			<value name="AlwaysShowTrayIcon" type="hex" data="00"/>
 			<value name="SafeFarClose" type="hex" data="01"/>
 			<value name="SafeFarCloseMacro" type="string" data=""/>
